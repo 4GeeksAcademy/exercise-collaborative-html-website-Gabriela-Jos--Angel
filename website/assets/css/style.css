@@ -11,7 +11,7 @@ body {
 }
 
 .hero-section {
-    background-image: url('assets/img/bg.jpg');
+    background-image: url('../../assets/img/bg.jpg');
     background-size: cover;
     background-position: center;
 
@@ -41,3 +41,9 @@ body {
 .full-width-bar p {
     margin: 0;
 }
+.circle-img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
