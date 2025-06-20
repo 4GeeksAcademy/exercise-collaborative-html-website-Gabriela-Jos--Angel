@@ -1,11 +1,49 @@
-body{
+body {
     background: #BDBDBD;
 }
 
-.first-part{
+.first-part {
     color: gray;
 }
 
-.second-part{
+.second-part {
     color: black;
 }
+
+.hero-section {
+    background-image: url('../../assets/img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+
+    min-height: 600px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.full-width-bar {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    /* Ocupa todo el ancho disponible */
+}
+
+
+.full-width-bar:first-child {
+    margin-bottom: 20px;
+}
+
+.full-width-bar h1,
+.full-width-bar p {
+    margin: 0;
+}
+.circle-img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
